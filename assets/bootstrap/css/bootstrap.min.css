@@ -1066,6 +1066,21 @@ progress {
   .col-md-12 {
     flex: 0 0 auto;
     width: 100%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .align-center {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
   }
   .offset-md-0 {
     margin-left: 0;
@@ -2944,8 +2959,8 @@ fieldset:disabled .btn {
   --bs-btn-disabled-border-color: #212529;
 }
 .btn-outline-primary {
-  --bs-btn-color: #330eff;
-  --bs-btn-border-color: #ff0e0e;
+  --bs-btn-color: #000000;
+  --bs-btn-border-color: #484848;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #0ea0ff;
   --bs-btn-hover-border-color: #0ea0ff;
