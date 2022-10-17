@@ -4105,10 +4105,10 @@ fieldset:disabled .btn {
   --bs-card-cap-padding-y: 0.5rem;
   --bs-card-cap-padding-x: 1rem;
   --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
-  --bs-card-cap-color: ;
+  --bs-card-cap-color:#000 ;
   --bs-card-height: ;
-  --bs-card-color: ;
-  --bs-card-bg: #010087;
+  --bs-card-color:#000;
+  --bs-card-bg: #ccc8;
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
   position: relative;
@@ -7791,6 +7791,10 @@ fieldset:disabled .btn {
 .text-muted {
   --bs-text-opacity: 1;
   color: #fff !important;
+}
+.text-muted2 {
+  --bs-text-opacity: 1;
+  color: #000 !important;
 }
 .text-black-50 {
   --bs-text-opacity: 1;
