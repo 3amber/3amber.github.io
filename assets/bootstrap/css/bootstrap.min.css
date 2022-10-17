@@ -1044,6 +1044,9 @@ progress {
     flex: 0 0 auto;
     width: 50%;
   }
+  .col-md-13 {
+
+  }
   .col-md-7 {
     flex: 0 0 auto;
     width: 58.33333333%;
@@ -1073,6 +1076,12 @@ progress {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+  }
+  .col-md-13 {
+    flex: 0 0 auto;
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .align-center {
     display: flex;
@@ -2961,10 +2970,10 @@ fieldset:disabled .btn {
 }
 .btn-outline-primary {
   --bs-btn-color: #000000;
-  --bs-btn-border-color: #201087;
+  --bs-btn-border-color: #001eff;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #0ea0ff;
-  --bs-btn-hover-border-color: #0ea0ff;
+  --bs-btn-hover-border-color: #001eff;
   --bs-btn-focus-shadow-rgb: 14, 160, 255;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #0ea0ff;
@@ -2980,7 +2989,7 @@ fieldset:disabled .btn {
   --bs-btn-border-color: #000;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #0ea0ff;
-  --bs-btn-hover-border-color: #6c757d;
+  --bs-btn-hover-border-color: #000;
   --bs-btn-focus-shadow-rgb: 108, 117, 125;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #6c757d;
@@ -10500,7 +10509,7 @@ fieldset:disabled .btn {
   }
 }
 .gradient {
-  background: linear-gradient(120deg, #4643f3, #201087);
+  background: linear-gradient(120deg, #201087 , #001eff);
   color: #fff;
 }
 .navbackground{
@@ -10619,6 +10628,12 @@ fieldset:disabled .btn {
 }
 .portfolio-block.skills {
   border-bottom: 1px solid #ddd;
+}
+.skill-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
 }
 .special-skill-item {
   margin-bottom: 30px;
