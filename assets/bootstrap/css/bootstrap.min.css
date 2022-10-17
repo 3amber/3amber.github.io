@@ -10711,14 +10711,14 @@ fieldset:disabled .btn {
 }
 .portfolio-block.cv .group .organization {
   font-size: 0.85em;
-  background-color: #0616dd;
+  background-color: #ccc;
   display: inline-block;
-  color: #fff;
+  color: #000;
   padding: 2px 8px;
   border-radius: 2em;
 }
 .portfolio-block.cv .education.group .organization {
-  background-color: #e7051a;
+  background-color: #ccc;
 }
 .portfolio-block.cv .group .item {
   padding-bottom: 10px;
@@ -10743,6 +10743,8 @@ fieldset:disabled .btn {
   padding: 40px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
   height: 100%;
+  background-color: #fff;
+  color: #000;
 }
 .portfolio-info-card h2,
 .portfolio-info-card .h2 {
