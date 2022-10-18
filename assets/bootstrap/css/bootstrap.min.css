@@ -1092,6 +1092,9 @@ progress {
     align-items: center;
     justify-content: space-around;
   }
+  .text-left {
+    text-align: left;
+  }
   .offset-md-0 {
     margin-left: 0;
   }
