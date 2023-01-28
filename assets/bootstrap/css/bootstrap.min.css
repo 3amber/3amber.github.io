@@ -3600,7 +3600,8 @@ fieldset:disabled .btn {
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--bs-nav-link-hover-color);
+  color: #001eff;
+  /*color: var(--bs-nav-link-hover-color);*/
 }
 .nav-link.disabled {
   color: var(--bs-nav-link-disabled-color);
@@ -3810,6 +3811,7 @@ fieldset:disabled .btn {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+  background-color: #465af9 ;
 }
 .navbar-nav-scroll {
   max-height: var(--bs-scroll-height, 75vh);
